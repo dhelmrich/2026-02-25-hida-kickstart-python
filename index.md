@@ -16,7 +16,7 @@ enddate: 26th Feb 2026        # machine-readable end date for the workshop in YY
 instructor: ["Johannes Wasmer", "Dirk Baker"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Dirk Baker", "Johannes Wasmer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hida-courses@helmholtz.de", "j.wasmer@fz-juelich.de", "dirk.baker@ufz.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2026-02-25-hida-kickstart-python # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: https://pad.carpentries.org/2026-02-25-hida-kickstart-python-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
@@ -233,7 +233,7 @@ special instructions.
 <p id="accessibility">
   <strong>Accessibility:</strong>
   We are committed to making this workshop
-  accessible to everybody. 
+  accessible to everybody.
 {% if online == "false" %}
   The workshop organizers have checked that:
 <p>
@@ -243,19 +243,19 @@ special instructions.
   </ul>
 {% endif %}
 </p>
-<p>We are dedicated to providing a positive and accessible learning environment for all. 
-  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
-  However, we do want to help create an inclusive, accessible experience for all participants. 
+<p>We are dedicated to providing a positive and accessible learning environment for all.
+  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information.
+  However, we do want to help create an inclusive, accessible experience for all participants.
   We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-  To request accessibility support for this workshop, please fill out the 
+  To request accessibility support for this workshop, please fill out the
   <a href="https://carpentries.typeform.com/to/B2OSYaD0">accessibility support request form</a>.
   If you have questions or need assistance with the accessibility support form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
 <p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
+  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary
+  for computing and data science terms. The glossary helps
+  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it
+  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers
   for their learners.
 </p>
 {% endcomment %}
